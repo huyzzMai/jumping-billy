@@ -46,6 +46,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: 
+  - name: 'Terrain '
     uniqueID: 4116593821
     locked: 0
