@@ -156,8 +156,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 1265927994874602296}
   - {fileID: 1265927994653227398}
+  - {fileID: 1265927994874602296}
   speed: 2
 --- !u!61 &1265927994599128510
 BoxCollider2D:
