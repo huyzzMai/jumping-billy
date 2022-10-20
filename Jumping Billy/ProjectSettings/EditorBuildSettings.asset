@@ -7,11 +7,20 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Start scene.unity
-    guid: 96abb082a8058534b89f2cd2cb91abad
+    guid: c836b91239d5b144e9e642b532db2292
+  - enabled: 1
+    path: Assets/Scenes/Map 1.unity
+    guid: d87e86341ab3d8349b8df2bf77bab02c
+  - enabled: 1
+    path: Assets/Scenes/Map 2.unity
+    guid: f34de532ce0a0416fb4beddcfe4057fa
   - enabled: 1
     path: Assets/Scenes/Map 3.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Map 4.unity
-    guid: b2d13362805d8d041b1380fd83924a4e
+    guid: 43ab49cc58c947346a91b8f9a8a4ac17
+  - enabled: 1
+    path: Assets/Scenes/End scene.unity
+    guid: b9c0028cfe79dc545adbfdcc97d6c807
   m_configObjects: {}
