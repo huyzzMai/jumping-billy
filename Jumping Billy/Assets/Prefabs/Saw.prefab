@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5178844382524340}
   - component: {fileID: 5178844382524338}
+  - component: {fileID: 1974392377149204106}
   - component: {fileID: 5178844382524339}
   - component: {fileID: 5178844382524337}
-  - component: {fileID: 1974392377149204106}
   m_Layer: 0
   m_Name: Saw
   m_TagString: Untagged
@@ -87,6 +87,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1974392377149204106
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5178844382524341}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.022828102}
+  serializedVersion: 2
+  m_Radius: 1.2103281
 --- !u!114 &5178844382524339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115,20 +131,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceff94f618c6c5d44ba305751557de70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.4
---- !u!58 &1974392377149204106
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5178844382524341}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.022828102}
-  serializedVersion: 2
-  m_Radius: 1.2103281
+  speed: 1
