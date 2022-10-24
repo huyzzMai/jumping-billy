@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ItemCollector : MonoBehaviour
 {
-    private int apples = 0;
+    private int points = 0;
 
     [SerializeField] private Text applesText;
 
@@ -13,12 +15,13 @@ public class ItemCollector : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Apple"))
+        if (collision.gameObject.CompareTag("Fruit"))
         {
             collectionSoundEffect.Play();
-            Destroy(collision.gameObject);
-            apples++;
-            applesText.text = "Apples: " + apples;
+            collision.gameObject.GetComponentInParent<Fruit>().OnDestroy();
+            points += collision.gameObject.GetComponentInParent<Fruit>().point;
+            applesText.text = "Points: " + points;
         }
+
     }
 }
