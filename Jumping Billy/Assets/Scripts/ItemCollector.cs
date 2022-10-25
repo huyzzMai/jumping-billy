@@ -9,7 +9,7 @@ public class ItemCollector : MonoBehaviour
 {
     private int points = 0;
 
-    [SerializeField] private Text applesText;
+    [SerializeField] private Text pointsText;
 
     [SerializeField] private AudioSource collectionSoundEffect;
 
@@ -20,7 +20,7 @@ public class ItemCollector : MonoBehaviour
             collectionSoundEffect.Play();
             collision.gameObject.GetComponentInParent<Fruit>().OnDestroy();
             points += collision.gameObject.GetComponentInParent<Fruit>().point;
-            applesText.text = "Points: " + points;
+            pointsText.text = "Points: " + points;
         }
 
     }
