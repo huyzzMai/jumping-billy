@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 2093912033557834504}
   - component: {fileID: 2093912033557834501}
   - component: {fileID: 2093912033557834502}
+  - component: {fileID: 5616716019822025059}
   m_Layer: 0
   m_Name: Apple
-  m_TagString: Apple
+  m_TagString: Fruit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132,3 +133,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5595312, y: 0.67956984}
   m_EdgeRadius: 0
+--- !u!114 &5616716019822025059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093912033557834505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8b540486053a341a1fd86b0de735ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Apple
+  point: 1

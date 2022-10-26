@@ -499,6 +499,10 @@ PrefabInstance:
       propertyPath: applesText
       value: 
       objectReference: {fileID: 1985796934}
+    - target: {fileID: 2858342765966119126, guid: 80eaa920af4d866429c40777ed5972a9, type: 3}
+      propertyPath: pointsText
+      value: 
+      objectReference: {fileID: 1985796934}
     - target: {fileID: 2858342765966119131, guid: 80eaa920af4d866429c40777ed5972a9, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -17735,7 +17739,7 @@ GameObject:
   - component: {fileID: 1985796935}
   - component: {fileID: 1985796934}
   m_Layer: 5
-  m_Name: Apples Text
+  m_Name: Points Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17794,7 +17798,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Apples: 0'
+  m_Text: 'Points: 0'
 --- !u!222 &1985796935
 CanvasRenderer:
   m_ObjectHideFlags: 0
