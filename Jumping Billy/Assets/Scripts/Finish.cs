@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Finish : MonoBehaviour
 {
@@ -20,6 +21,8 @@ public class Finish : MonoBehaviour
         {
             finishSound.Play();
             levelCompleted = true;
+            string points = ItemCollector.Instance.getPoint().ToString();
+            FileHandler.Instance.saveProcess(points);
             Invoke("CompleteLevel", 8f);
         }
     }
